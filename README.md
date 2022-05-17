@@ -6,9 +6,10 @@ Problem Statement: Building a CNN model for A_Z_Handwritten_Data and analyse mod
 Dataset: A_Z_Hadwritten_Data.csv
 
 This project aims to develop a  module for predicting alphabets. 
-The csv file consists of the pixels for alphabets. While analysing the dataset it was found that the csv 0th column consists of the labels(0-25) representing letters from A-Z . A cnn model has been build to train the dataset as there were multiclass classification of images is there and evaluate model accuracy and performance using confusion matrix. 
+The csv file consists of the pixels for alphabets. While analysing the dataset it was found that the csv 0th column consists of the labels(0-25) representing letters from A-Z . A cnn model has been build  to train the dataset as there were multiclass classification of images is there and evaluate model accuracy and performance using confusion matrix. The model has been trained on only selected letters from A-Z ie 'A', 'C', 'D', 'E', 'G', 'H', 'I', 'L', 'N', 'O', 'P', 'Q', 
+          'S', 'T', 'U', 'V'
 
-About CNN model: Convolution Neural Network
+About CNN model: Convolution Neural Network:a Convolutional Neural Network or CNN is a type of artificial neural network, which is widely used for image/object recognition and classification.
 Convolution layer: a filter passes over input image, scanning the pixels ans create a feature map
 pooling layer: resduces no of pixelsa using max pooling so that we can retain the strongest pixels while ignoring weaker one
 flattening:output from previous layer are flattened to single vector to paas to nect input level:
